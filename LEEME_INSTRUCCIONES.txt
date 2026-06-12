@@ -1,0 +1,27 @@
+LISTA DE PRECIOS - GITHUB PAGES / PWA OFFLINE
+
+Archivos incluidos:
+- index.html
+- manifest.webmanifest
+- service-worker.js
+- icon-192.png
+- icon-512.png
+
+Cómo subirlo:
+1. Crea un repositorio nuevo en GitHub.
+2. Sube todos estos archivos en la raíz del repositorio, no dentro de una carpeta.
+3. En GitHub: Settings > Pages.
+4. En Source elige Deploy from a branch.
+5. En Branch selecciona main y /root.
+6. Guarda.
+7. Espera unos minutos y abre el enlace de GitHub Pages.
+
+Instalación en Android:
+1. Abre el enlace publicado con Chrome.
+2. Toca ⋮ > Agregar a pantalla principal o Instalar app.
+3. Abre la app una vez con internet para guardar el caché.
+4. Después podrá abrir sin internet.
+
+Nota:
+Si cambias precios, vuelve a subir index.html y cambia CACHE_NAME en service-worker.js
+por ejemplo a lista-precios-llantera-v2 para forzar actualización offline.
